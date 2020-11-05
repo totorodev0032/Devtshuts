@@ -20,7 +20,7 @@ const HomeScreen = () => {
     }, [])
     return (
         <>
-            <h1>Latest Products</h1>
+            <h2 style = {{marginTop:'10px', marginBottom:'10px'}}>Dev T-Shirt</h2>
             <Row>
                 {products.map((product) => 
                     <Col key = {product._id} sm = {12} md = {6} lg = {4} xl = {3} >
