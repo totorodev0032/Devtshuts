@@ -4,17 +4,21 @@ const app = express();
 const colors = require('colors');
 const connectDB = require('./config/db');
 const productRoutes = require('./routes/productRoutes');
+const userRoutes = require('./routes/userRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 
 dotenv.config();
 
 connectDB();
 
+app.use(express.json()); // this will allow json format in body
+
 app.get('/', (req, res) => {
   res.send('API is running');
 });
 
 app.use('/api/products', productRoutes);
+app.use('/api/users', userRoutes);
 
 app.use(notFound);
 
