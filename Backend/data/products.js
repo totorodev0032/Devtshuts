@@ -2,7 +2,8 @@ const products = [
   {
     name: 'Fly Tshirt',
     image: '/images/2.jpg',
-    description: 'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
+    description:
+      'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
     brand: 'Cotton',
     category: 'tshirt',
     price: 89.99,
@@ -11,9 +12,10 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'Boy Blue Tshirt',
+    name: 'Boy Blue tsshirt',
     image: '/images/3.jpg',
-    description: 'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
+    description:
+      'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
     brand: 'Cotton',
     category: 'tshirt',
     price: 599.99,
@@ -24,7 +26,8 @@ const products = [
   {
     name: 'Cool Lion Tshirt',
     image: '/images/4.jpg',
-    description: 'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
+    description:
+      'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
     brand: 'Cotton',
     category: 'tshirt',
     price: 929.99,
@@ -35,7 +38,8 @@ const products = [
   {
     name: 'King Tshirt',
     image: '/images/8.jpg',
-    description: 'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
+    description:
+      'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
     brand: 'Cotton',
     category: 'tshirt',
     price: 399.99,
@@ -46,7 +50,8 @@ const products = [
   {
     name: 'Robo Tshirt',
     image: '/images/tshirt.jpg',
-    description: 'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
+    description:
+      'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
     brand: 'Cotton',
     category: 'tshirt',
     price: 49.99,
@@ -57,7 +62,8 @@ const products = [
   {
     name: 'Fly Tshirt',
     image: '/images/2.jpg',
-    description: 'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
+    description:
+      'Our Bella / Canvas t-shirts are made from a 50% cotton / 50% polyester blend and are available in five different sizes.&nbsp;&nbsp;&nbsp;All t-shirts are machine washable.    ',
     brand: 'Cotton',
     category: 'tshirt',
     price: 29.99,
@@ -65,6 +71,6 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
-]
+];
 
 module.exports = products;
